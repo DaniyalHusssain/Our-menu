@@ -54,7 +54,7 @@ button:hover {
 .menu {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  /* grid-template-rows: repeat(3, 420px); */
   margin-left: 4pc;
   /* gap: 1rem; */
 }
@@ -68,7 +68,7 @@ button:hover {
 .img img {
   width: 100%;
   /* height: 100%; */
-  border-radius: 5px;
+  border-radius: 5px 5px 0px 0px;
   height: 15rem;
   object-fit: cover;
 }
